@@ -16,3 +16,5 @@ sudo chmod 700 netplan-easy.sh
 sudo sh netplan-easy.sh
 
 ## Screenshot
+![Sin nombre](https://user-images.githubusercontent.com/57175463/73199613-103d2d80-412d-11ea-9af4-ba70cda5a857.jpg)
+
