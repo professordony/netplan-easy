@@ -27,7 +27,7 @@
 
     if [ $? -ne 0 ]
     then
-        echo "\e[31mYour operative system is not compatible with this script\e[0m"
+        echo "\e[31mYour operating system is not compatible with this script\e[0m"
         echo
 
         exit 2
