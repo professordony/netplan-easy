@@ -9,7 +9,7 @@ Ubuntu Server
 git clone https://github.com/joseafon/netplan-easy.git 
 
 ## Setup
-cd netplan-easy
+cd netplan-easy && 
 sudo chmod 700 netplan-easy.sh
 
 ## Run
