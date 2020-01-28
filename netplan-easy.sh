@@ -58,6 +58,8 @@
 |         Input IP address        |    
 +---------------------------------+
 \e[0m"
+    echo
+    
     read IP
 
     echo "\e[96m
