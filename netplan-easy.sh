@@ -33,6 +33,12 @@
         exit 2
     fi
 
+    if [ ! -d /etc/netplan/original ]
+    then
+        mkdir -p /etc/netplan/original
+        mv /etc/netplan/*.yaml /etc/netplan/original || mv /etc/netplan/*.yml /etc/netplan/original
+    fi
+    
     echo "\e[92m
 ███╗   ██╗███████╗████████╗██████╗ ██╗      █████╗ ███╗   ██╗
 ████╗  ██║██╔════╝╚══██╔══╝██╔══██╗██║     ██╔══██╗████╗  ██║
