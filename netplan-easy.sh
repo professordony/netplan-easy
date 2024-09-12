@@ -124,7 +124,9 @@ network:
        dhcp6: no
 
        addresses: [$IP/$CIDR]
-       gateway4: $GATEWAY
+       routes: 
+       - to: default
+         via: $GATEWAY
        nameservers:
 
            addresses: [$DNS1,$DNS2]" > /etc/netplan/01-netcfg.yaml
