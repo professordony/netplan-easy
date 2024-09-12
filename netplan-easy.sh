@@ -2,7 +2,8 @@
 #                                                                       #
 #       Name of Script: netplan-easy                                    #
 #       Description: no comment                                         #
-#       Author: Jose Manuel Afonso Santana                              #
+#       Author: Jose Manuel Afonso Santana
+#       Fix gateway: Professor Dony
 #       Alias: joseafon                                                 #
 #       Email: jmasantana@linuxmail.org                                 #
 #                                                                       #
